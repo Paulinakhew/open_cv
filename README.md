@@ -20,3 +20,21 @@ $ brew install tesseract
 $ pip install -r requirements.txt
 $ sudo apt-get install tesseract-ocr
 ```
+
+## Testing Pytesseract on Example Files
+The Pytesseract that we are testing below is the one downloaded using `homebrew`/`sudo apt-get install` and not the one from `pip`.
+
+```ShellSession
+$ tesseract tesseract_inputs/example_01.png stdout
+```
+This should output `Testing Tesseract OCR`
+
+```ShellSession
+$ tesseract tesseract_inputs/example_02.png stdout
+```
+This should output `PyImageSearch`
+
+```ShellSession
+$ tesseract tesseract_inputs/example_03.png stdout
+```
+This should output `650 3428`
