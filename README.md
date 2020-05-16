@@ -12,10 +12,11 @@ git clone git@github.com:Paulinakhew/open_cv.git
 * **MacOS Users**
 ```ShellSession
 $ pip3 install -r requirements.txt
+$ brew install tesseract
 ```
 
-* **Linux Users**
+* **Ubuntu Users**
 ```ShellSession
 $ pip install -r requirements.txt
+$ sudo apt-get install tesseract-ocr
 ```
-
