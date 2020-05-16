@@ -1,6 +1,6 @@
 import cv2
 
-path = "qr_code.jpg"
+path = ""
 img = cv2.imread(path)
 # img = cv2.imread(path, 0)  # load up photo in grayscale
 
